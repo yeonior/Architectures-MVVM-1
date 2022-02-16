@@ -8,7 +8,7 @@
 import Foundation
 
 enum ViewData {
-    case initialize
+    case initial
     case loading(Data)
     case success(Data)
     case failure(Data)

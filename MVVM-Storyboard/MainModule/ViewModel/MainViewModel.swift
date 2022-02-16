@@ -17,7 +17,7 @@ final class MainViewModel: MainViewModelProtocol {
     public var updateViewData: ((ViewData) -> ())?
     
     init() {
-        updateViewData?(.initialize)
+        updateViewData?(.initial)
     }
     
     public func startFetch() {
