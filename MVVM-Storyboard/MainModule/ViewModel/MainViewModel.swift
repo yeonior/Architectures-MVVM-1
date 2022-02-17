@@ -28,15 +28,15 @@ final class MainViewModel: MainViewModelProtocol {
                                                description: nil,
                                                phoneNumber: nil)))
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
-            self?.updateViewData?(.success(ViewData.Data(icon: "checkmark.diamond",
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            self.updateViewData?(.success(ViewData.Data(icon: "checkmark.diamond",
                                                         title: "success",
                                                         description: "everything is ok",
                                                         phoneNumber: nil)))
         }
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 6) { [weak self] in
-            self?.updateViewData?(.success(ViewData.Data(icon: "xmark.diamond",
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+            self.updateViewData?(.success(ViewData.Data(icon: "xmark.diamond",
                                                         title: "failure",
                                                         description: "something went wrong",
                                                         phoneNumber: nil)))

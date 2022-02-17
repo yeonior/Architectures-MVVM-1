@@ -9,6 +9,8 @@ import UIKit
 
 extension TestView {
     
+    static var imageConfig = UIImage.SymbolConfiguration(pointSize: 50, weight: .bold, scale: .large)
+    
     func createImageView() -> UIImageView {
         let imageView = UIImageView()
         imageView.translatesAutoresizingMaskIntoConstraints = false

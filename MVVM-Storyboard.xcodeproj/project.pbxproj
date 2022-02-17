@@ -70,7 +70,6 @@
 				A27FF28727BBF2DD00EE0B67 /* SceneDelegate.swift */,
 				A278F4C727BD669F00C2B4D9 /* ModuleBuilder.swift */,
 				A27FF29A27BBF3E800EE0B67 /* MainModule */,
-				A27FF28B27BBF2DD00EE0B67 /* Main.storyboard */,
 				A27FF28E27BBF2DE00EE0B67 /* Assets.xcassets */,
 				A27FF29027BBF2DE00EE0B67 /* LaunchScreen.storyboard */,
 				A27FF29327BBF2DE00EE0B67 /* Info.plist */,
@@ -82,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				A27FF28927BBF2DD00EE0B67 /* MainViewController.swift */,
+				A27FF28B27BBF2DD00EE0B67 /* Main.storyboard */,
 				A27FF2A327BBFC8000EE0B67 /* TestView.swift */,
 				A27FF2A527BBFC9D00EE0B67 /* TestView + Extension.swift */,
 			);
@@ -92,8 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				A27FF29B27BBF3FC00EE0B67 /* Model */,
-				A27FF29927BBF33400EE0B67 /* View */,
 				A27FF29E27BBF6AE00EE0B67 /* ViewModel */,
+				A27FF29927BBF33400EE0B67 /* View */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";

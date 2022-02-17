@@ -14,7 +14,8 @@ protocol Builder {
 final class ModuleBuilder: Builder {
     static func createMainModule() -> UIViewController {
         let viewModel = MainViewModel()
-        let view = MainViewController()
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let view = storyboard.instantiateViewController(withIdentifier: "Main") as! MainViewController
         view.viewModel = viewModel
         
         return view
