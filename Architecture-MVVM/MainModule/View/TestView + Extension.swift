@@ -1,6 +1,6 @@
 //
 //  TestView + Extension.swift
-//  MVVM-Storyboard
+//  Architecture-MVVM
 //
 //  Created by Ruslan on 15.02.2022.
 //

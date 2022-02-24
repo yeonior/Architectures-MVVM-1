@@ -1,6 +1,6 @@
 //
 //  ModuleBuilder.swift
-//  MVVM-Storyboard
+//  Architecture-MVVM
 //
 //  Created by Ruslan on 16.02.2022.
 //
